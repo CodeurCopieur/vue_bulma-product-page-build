@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <GridColumns></GridColumns>
+    <ResponsiveClasses></ResponsiveClasses>
   </div>
 </template>
 
 <script>
 import GridColumns from './components/GridColumns.vue'
+import ResponsiveClasses from './components/ResponsiveClasses.vue'
 
 export default {
   name: 'App',
   components: {
-    GridColumns
+    GridColumns,
+    ResponsiveClasses
   }
 }
 </script>
