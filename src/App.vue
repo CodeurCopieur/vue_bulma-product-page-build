@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <GridColumns></GridColumns>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import GridColumns from './components/GridColumns.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    GridColumns
   }
 }
 </script>
